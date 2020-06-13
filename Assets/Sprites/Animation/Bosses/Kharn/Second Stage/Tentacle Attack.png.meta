@@ -1,0 +1,362 @@
+fileFormatVersion: 2
+guid: 156118f0af97b3e48aa6ebfa0e9de090
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: "\u0443\u0434\u0430\u0440 \u0434\u0430\u043B\u044C_0"
+  - first:
+      213: 21300002
+    second: "\u0443\u0434\u0430\u0440 \u0434\u0430\u043B\u044C_1"
+  - first:
+      213: 21300004
+    second: "\u0443\u0434\u0430\u0440 \u0434\u0430\u043B\u044C_2"
+  - first:
+      213: 21300006
+    second: "\u0443\u0434\u0430\u0440 \u0434\u0430\u043B\u044C_3"
+  - first:
+      213: 21300008
+    second: "\u0443\u0434\u0430\u0440 \u0434\u0430\u043B\u044C_4"
+  - first:
+      213: 21300010
+    second: "\u0443\u0434\u0430\u0440 \u0434\u0430\u043B\u044C_5"
+  - first:
+      213: 21300012
+    second: "\u0443\u0434\u0430\u0440 \u0434\u0430\u043B\u044C_6"
+  - first:
+      213: 7568937448955187174
+    second: Tentacle Attack_0
+  - first:
+      213: 8512997836690663928
+    second: Tentacle Attack_1
+  - first:
+      213: -5840837732493031718
+    second: Tentacle Attack_2
+  - first:
+      213: -7648645192682157557
+    second: Tentacle Attack_3
+  - first:
+      213: 3360232939283295076
+    second: Tentacle Attack_4
+  - first:
+      213: -7779885826434314288
+    second: Tentacle Attack_5
+  - first:
+      213: 1554805217021598965
+    second: Tentacle Attack_6
+  - first:
+      213: 5684343894478014775
+    second: Tentacle Attack_7
+  - first:
+      213: 865090116414533244
+    second: Tentacle Attack_8
+  - first:
+      213: -8636767806618358898
+    second: Tentacle Attack_9
+  - first:
+      213: 5373443358387044387
+    second: Tentacle Attack_10
+  - first:
+      213: -4224451664504360423
+    second: Tentacle Attack_0
+  - first:
+      213: -6644305533306362483
+    second: Tentacle Attack_1
+  - first:
+      213: 6704593052404386651
+    second: Tentacle Attack_2
+  - first:
+      213: 3348721735638081300
+    second: Tentacle Attack_3
+  - first:
+      213: 6033139294670335976
+    second: Tentacle Attack_4
+  - first:
+      213: -781674999009076025
+    second: Tentacle Attack_5
+  - first:
+      213: -4954885169141339248
+    second: Tentacle Attack_6
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tentacle Attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 247
+        height: 128
+      alignment: 9
+      pivot: {x: 0.2, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912f86ed79bbf55c0800000000000000
+      internalID: -4224451664504360423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle Attack_1
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 0
+        width: 247
+        height: 128
+      alignment: 9
+      pivot: {x: 0.23, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85ac1c025faac3a0800000000000000
+      internalID: -6644305533306362483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle Attack_2
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 0
+        width: 247
+        height: 128
+      alignment: 9
+      pivot: {x: 0.29783648, y: 0.49839413}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b8d14dbdf7b0d50800000000000000
+      internalID: 6704593052404386651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle Attack_3
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 0
+        width: 247
+        height: 128
+      alignment: 9
+      pivot: {x: 0.3321133, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f56502dac097e20800000000000000
+      internalID: 3348721735638081300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle Attack_4
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 0
+        width: 247
+        height: 128
+      alignment: 9
+      pivot: {x: 0.36836818, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8efa64b39340ab350800000000000000
+      internalID: 6033139294670335976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle Attack_5
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 0
+        width: 247
+        height: 128
+      alignment: 9
+      pivot: {x: 0.40788633, y: 0.49999997}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc924adabee625f0800000000000000
+      internalID: -781674999009076025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle Attack_6
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 0
+        width: 247
+        height: 128
+      alignment: 9
+      pivot: {x: 0.44549832, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09baa76d036bc3bb0800000000000000
+      internalID: -4954885169141339248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b49daf4e1a172eb4ea6f64f8177615f3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
