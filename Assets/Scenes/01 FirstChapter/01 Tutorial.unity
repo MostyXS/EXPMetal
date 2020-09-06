@@ -6742,9 +6742,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 858485003}
-  - component: {fileID: 858485004}
   - component: {fileID: 858485005}
   - component: {fileID: 858485006}
+  - component: {fileID: 858485004}
   m_Layer: 0
   m_Name: 3rdDialogue trigger
   m_TagString: Untagged
@@ -13608,9 +13608,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1918385233}
-  - component: {fileID: 1918385235}
   - component: {fileID: 1918385234}
   - component: {fileID: 1918385236}
+  - component: {fileID: 1918385235}
   m_Layer: 0
   m_Name: 2nd Dialogue trigger
   m_TagString: Untagged

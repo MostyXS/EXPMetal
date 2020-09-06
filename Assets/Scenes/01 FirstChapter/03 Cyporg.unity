@@ -4245,7 +4245,7 @@ PrefabInstance:
     - target: {fileID: 538649312008504161, guid: a97d58d7724df03459e3382b757d2748,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.824108
+      value: -9.82349
       objectReference: {fileID: 0}
     - target: {fileID: 538649312008504161, guid: a97d58d7724df03459e3382b757d2748,
         type: 3}
@@ -4405,13 +4405,13 @@ PrefabInstance:
     - target: {fileID: 538649313033410471, guid: a97d58d7724df03459e3382b757d2748,
         type: 3}
       propertyPath: m_ChildCameras.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 538649313033410471, guid: a97d58d7724df03459e3382b757d2748,
         type: 3}
       propertyPath: m_Follow
       value: 
-      objectReference: {fileID: 1872910935}
+      objectReference: {fileID: 0}
     - target: {fileID: 538649313458136605, guid: a97d58d7724df03459e3382b757d2748,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5155,7 +5155,7 @@ PrefabInstance:
     - target: {fileID: 535150578143756325, guid: 7dc6c551b8840184aad4287b30fb17e0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 535150578143756325, guid: 7dc6c551b8840184aad4287b30fb17e0,
         type: 3}
@@ -6068,7 +6068,7 @@ PrefabInstance:
     - target: {fileID: 1442007101154655609, guid: c501fd8138e441a40adcc41c57986147,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1442007101154655609, guid: c501fd8138e441a40adcc41c57986147,
         type: 3}

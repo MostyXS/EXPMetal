@@ -25,8 +25,10 @@ namespace MostyProUI.DialgoueSystem
         {
             anim = GetComponent<Animator>();
             myEditor = GetComponent<DialogueSystemTextEditor>();
-            UIMenu.Instance.onPlayerDeath += Disable;
+            
+            
         }
+
         private void Disable()
         {
             enabled = false;
@@ -35,6 +37,8 @@ namespace MostyProUI.DialgoueSystem
         private void Start()
         {
             CreateDialogue();
+            UIMenu.Instance.onPlayerDeath += Disable;
+
             UIMenu.Instance.Pause(false);
             IsActive = true;
         }
@@ -92,7 +96,7 @@ namespace MostyProUI.DialgoueSystem
         }
         private void OnDestroy()
         {
-            EndDialogue();
+            ForceEndDialogue();
         }
 
         private void EndDialogue()
@@ -101,11 +105,19 @@ namespace MostyProUI.DialgoueSystem
             InvokeDestroyActions();
             IsActive = false;
             if (IsFinalDialogue()) return;
+            UIMenu.Instance.onPlayerDeath -= Disable;
             Destroy(gameObject);
-
             UIMenu.Instance.Resume();
 
         }
+
+        private void ForceEndDialogue()
+        {
+            IsActive = false;
+            UIMenu.Instance.onPlayerDeath -= Disable;
+            UIMenu.Instance.Resume();
+        }
+
 
         private void InvokeDestroyActions()
         {

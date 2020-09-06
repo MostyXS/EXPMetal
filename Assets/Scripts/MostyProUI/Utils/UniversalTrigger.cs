@@ -75,12 +75,17 @@ namespace EXPMetal.Triggers
 
         public object CaptureState()
         {
+
             return myCollider.enabled;
         }
 
         public void RestoreState(object state) //returns colliderEnabled
         {
             if (!oneOff) return;
+            if (myCollider == null)
+            {
+                myCollider = GetComponent<Collider2D>();
+            }
             myCollider.enabled = (bool)state;
             bool triggerActivated = !myCollider.enabled;
             for (int i = 0; i < objectsToTrigger.Length; i++)

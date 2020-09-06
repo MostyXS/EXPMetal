@@ -1,4 +1,5 @@
 using MostyProUI;
+using MostyProUI.DialgoueSystem;
 using MostyProUI.LevelController;
 using System.Collections;
 using System.Collections.Generic;
@@ -26,7 +27,7 @@ namespace EXPMetal.Saving
 
         public void Save(string saveFile)
         {
-            
+            if (DialogueSystemPlayer.IsActive) return;
             Dictionary<string, object> state = LoadFile(saveFile);
             CaptureState(state);
             SaveFile(saveFile, state);
@@ -84,7 +85,11 @@ namespace EXPMetal.Saving
 
         private static bool IsSceneObject(SaveableEntity saveable)
         {
-            return !(saveable.hideFlags == HideFlags.NotEditable || saveable.hideFlags == HideFlags.HideAndDontSave);
+            return !(saveable.hideFlags == HideFlags.NotEditable || saveable.hideFlags == HideFlags.HideAndDontSave
+#if UNITY_EDITOR
+                || UnityEditor.EditorUtility.IsPersistent(saveable.transform.root.gameObject)
+#endif
+                );
         }
 
         private void RestoreState(Dictionary<string, object> state)
